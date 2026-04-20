@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio – Mathéo Brigaud</title>
+  <meta name="description" content="Portfolio de Mathéo Brigaud – Étudiant BUT Science des Données">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+<!-- ======================================================
+     NAVIGATION
+     ====================================================== -->
+<nav>
+  <div class="nav-logo">Mathéo.dev</div>
+  <ul class="nav-links">
+    <li><a href="#about">À propos</a></li>
+    <li><a href="#skills">Compétences</a></li>
+    <li><a href="#projects">Projets</a></li>
+    <li><a href="#experience">Expérience</a></li>
+    <li><a href="#education">Formation</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <!-- Bouton hamburger mobile -->
+  <button class="nav-toggle" aria-label="Ouvrir le menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- ======================================================
+     HERO
+     ====================================================== -->
+<section id="hero">
+  <div class="hero-inner">
+    <div class="hero-content">
+      <span class="hero-badge">🎓 Étudiant BUT Science des Données</span>
+      <h1 class="hero-title">
+        Bonjour, je suis
+        <span class="name">Mathéo Brigaud</span>
+      </h1>
+      <p class="hero-subtitle">Analyse, traitement et valorisation de la DATA</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">Voir mes projets →</a>
+        <a href="#contact" class="btn btn-outline">Me contacter</a>
+      </div>
+    </div>
+
+    <div class="hero-image-wrapper">
+      <div class="hero-photo-frame">
+        <div class="hero-photo">
+          <!-- Photo : placez votre image dans images/profile.jpg -->
+          <img src="images/profile.jpg" alt="Photo de profil"
+               onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <!-- Placeholder initiales si pas de photo -->
+          <div style="display:none;width:100%;height:100%;border-radius:50%;
+                      background:var(--bg-card2);align-items:center;justify-content:center;
+                      font-family:'Syne',sans-serif;font-size:3rem;font-weight:800;
+                      color:var(--green-main);">
+            MB
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================================================
+     À PROPOS
+     ====================================================== -->
+<section id="about">
+  <h2 class="section-title">À <span>propos</span></h2>
+  <div class="section-divider"></div>
+
+  <div class="about-grid">
+    <div class="about-text">
+      <p>Étudiant en première année de BUT Science des Données à Niort, je développe une expertise solide dans le traitement et l'analyse de données. 
+    Mes résultats aux tests Pix témoignent d'une grande maîtrise en programmation et en résolution de problèmes techniques (Niveau 7).
+
+    Passionné par la culture, je cultive une dualité entre la rigueur scientifique et une curiosité nourrie par la philosophie, la littérature et la poésie. 
+    Sportif engagé (Rugby, Musculation), je valorise l'esprit d'équipe et la persévérance.</p>
+    </div>
+
+    <div class="info-cards">
+      <div class="info-card">
+        <div class="icon">📍</div>
+        <div class="label">Localisation</div>
+        <div class="value">Niort, France</div>
+      </div>
+      <div class="info-card">
+        <div class="icon">✉️</div>
+        <div class="label">Email</div>
+        <div class="value" style="font-size:0.82rem;">brigaudmatheo@gmail.com</div>
+      </div>
+      <div class="info-card">
+        <div class="icon">💼</div>
+        <div class="label">Disponibilité</div>
+        <div class="value">Stage / Alternance</div>
+      </div>
+      <div class="info-card">
+        <div class="icon">🌐</div>
+        <div class="label">Langues</div>
+        <div class="value">FR · EN</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================================================
+     COMPÉTENCES
+     ====================================================== -->
+<section id="skills">
+  <h2 class="section-title">Mes <span>compétences</span></h2>
+  <div class="section-divider"></div>
+  <div class="skills-grid">
+        <div class="skill-item">
+          <div class="skill-header">
+            <span class="skill-name">Programmation (Python)</span>
+            <span class="skill-percent">85%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-bar-fill" data-level="85"></div>
+          </div>
+          <span class="skill-tag">Expertise Pix niv. 7</span>
+        </div>
+        <div class="skill-item">
+          <div class="skill-header">
+            <span class="skill-name">Résoudre des problèmes</span>
+            <span class="skill-percent">85%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-bar-fill" data-level="85"></div>
+          </div>
+          <span class="skill-tag">Expertise Pix niv. 7</span>
+        </div>
+        <div class="skill-item">
+          <div class="skill-header">
+            <span class="skill-name">Gérer des données</span>
+            <span class="skill-percent">75%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-bar-fill" data-level="75"></div>
+          </div>
+          <span class="skill-tag">Expertise Pix niv. 6</span>
+        </div>
+        <div class="skill-item">
+          <div class="skill-header">
+            <span class="skill-name">Environnement numérique</span>
+            <span class="skill-percent">70%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-bar-fill" data-level="70"></div>
+          </div>
+          <span class="skill-tag">Expertise Pix niv. 6</span>
+        </div>
+        <div class="skill-item">
+          <div class="skill-header">
+            <span class="skill-name">Anglais (Niveau C1)</span>
+            <span class="skill-percent">90%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-bar-fill" data-level="90"></div>
+          </div>
+          <span class="skill-tag">Langues</span>
+        </div>
+        <div class="skill-item">
+          <div class="skill-header">
+            <span class="skill-name">Espagnol (Niveau B2)</span>
+            <span class="skill-percent">75%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-bar-fill" data-level="75"></div>
+          </div>
+          <span class="skill-tag">Langues</span>
+        </div>
+        <div class="skill-item">
+          <div class="skill-header">
+            <span class="skill-name">Excel / SQL</span>
+            <span class="skill-percent">70%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-bar-fill" data-level="70"></div>
+          </div>
+          <span class="skill-tag">Outils techniques</span>
+        </div></div>
+</section>
+
+<!-- ======================================================
+     PROJETS
+     ====================================================== -->
+<section id="projects">
+  <h2 class="section-title">Mes <span>projets</span></h2>
+  <div class="section-divider"></div>
+  
+    <div class="project-featured">
+      <div class="project-featured-img">
+        
+    <img src="images/projects/insee.jpg" alt="Production de données en entreprise"
+         onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+    <div class="img-placeholder" style="display:none;">🗂️</div>
+    
+      </div>
+      <div class="project-featured-content">
+        <span class="project-badge">⭐ Projet phare</span>
+        <h3 style="font-family:'Syne',sans-serif;font-size:1.5rem;margin-bottom:0.75rem;">Production de données en entreprise</h3>
+        <p style="color:var(--text-muted);line-height:1.7;margin-bottom:1rem;">Collecte et regroupement de données INSEE. Analyse et traitement de bases de données.</p>
+        <div class="tags"><span class="tag">Data Analysis</span><span class="tag">INSEE</span><span class="tag">Python</span></div>
+        <div class="project-links"></div>
+        <p style="font-size:0.8rem;color:var(--text-dim);margin-top:1rem;">📅 2025</p>
+      </div>
+    </div>
+    
+  <div class="projects-grid">
+    
+    <div class="project-card">
+      <div class="project-card-img">
+        
+    <img src="images/projects/eco.jpg" alt="Lieu économique et culturel"
+         onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+    <div class="img-placeholder" style="display:none;">🗂️</div>
+    
+      </div>
+      <div class="project-card-body">
+        <h3>Lieu économique et culturel</h3>
+        <p>Présentation historique en français et analyse économique en anglais (C1).</p>
+        <div class="tags"><span class="tag">Anglais C1</span><span class="tag">Économie</span></div>
+        <div class="project-links">
+          
+          <span style="margin-left:auto;font-size:0.8rem;color:var(--text-dim);">📅 2024</span>
+        </div>
+      </div>
+    </div>
+    
+    <div class="project-card">
+      <div class="project-card-img">
+        
+    <img src="images/projects/enquete.jpg" alt="Mise en œuvre d'enquête"
+         onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+    <div class="img-placeholder" style="display:none;">🗂️</div>
+    
+      </div>
+      <div class="project-card-body">
+        <h3>Mise en œuvre d'enquête</h3>
+        <p>Apprentissage et application des différents types d'enquêtes statistiques.</p>
+        <div class="tags"><span class="tag">Statistiques</span><span class="tag">Méthodologie</span></div>
+        <div class="project-links">
+          
+          <span style="margin-left:auto;font-size:0.8rem;color:var(--text-dim);">📅 2025</span>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+<!-- ======================================================
+     EXPÉRIENCE
+     ====================================================== -->
+<section id="experience">
+  <h2 class="section-title">Mon <span>expérience</span></h2>
+  <div class="section-divider"></div>
+  <div class="timeline">
+            <div class="experience-card">
+                <div class="exp-header">
+                    <div class="exp-logo">
+                        <img src="images/logo/U.jpg" alt="Logo Super U (Villebois-Lavalette)" style="width:50px; height:50px; object-fit:cover; border-radius:8px;">
+                    </div>
+                    <div class="exp-title-container">
+                        <h3>Hôte de caisse</h3>
+                        <h4>Super U (Villebois-Lavalette)</h4>
+                    </div>
+                    <span class="exp-date">Mars 2025 - Présent</span>
+                </div>
+        </div>
+            <div class="experience-card">
+                <div class="exp-header">
+                    <div class="exp-logo">
+                        <img src="images/logo/U.jpg" alt="Logo Super U" style="width:50px; height:50px; object-fit:cover; border-radius:8px;">
+                    </div>
+                    <div class="exp-title-container">
+                        <h3>Employé commercial (BAZAR / PGC)</h3>
+                        <h4>Super U</h4>
+                    </div>
+                    <span class="exp-date">Octobre 2023 - Février 2025</span>
+                </div>
+        </div>
+            <div class="experience-card">
+                <div class="exp-header">
+                    <div class="exp-logo">
+                        <img src="images/logo/ML.jpg" alt="Logo Maison Lafaye (Soyaux)" style="width:50px; height:50px; object-fit:cover; border-radius:8px;">
+                    </div>
+                    <div class="exp-title-container">
+                        <h3>Extra Serveur</h3>
+                        <h4>Maison Lafaye (Soyaux)</h4>
+                    </div>
+                    <span class="exp-date">2023 - 2025</span>
+                </div>
+        </div></div>
+</section>
+
+<!-- ======================================================
+     FORMATION
+     ====================================================== -->
+<section id="education">
+  <h2 class="section-title">Ma <span>formation</span></h2>
+  <div class="section-divider"></div>
+  <div class="education-grid">
+        <div class="edu-card">
+          <div class="edu-period">2025 - 2028</div>
+          <h3>BUT Science des Données</h3>
+          <div class="edu-school">🏛️ IUT - Université de Poitiers Campus de Niort</div>
+          <span class="edu-mention">✨ En cours</span>
+          <p>Traiter, analyser et valoriser les données.</p>
+        </div>
+        <div class="edu-card">
+          <div class="edu-period">2025</div>
+          <h3>Baccalauréat (Mention Bien)</h3>
+          <div class="edu-school">🏛️ Lycée Sainte Marthe Chavagnes</div>
+          <span class="edu-mention">✨ Obtenu</span>
+          <p>Spécialités : NSI (Numérique), Mathématiques et Anglais AMC.</p>
+        </div></div>
+</section>
+
+<!-- ======================================================
+     CONTACT
+     ====================================================== -->
+<section id="contact">
+  <h2 class="section-title">Me <span>contacter</span></h2>
+  <div class="section-divider" style="margin:0.5rem auto 1rem;"></div>
+  <p style="color:var(--text-muted);max-width:500px;margin:0 auto;">
+    Ouvert aux opportunités de stage, alternance ou collaboration. N'hésitez pas !
+  </p>
+
+  <div class="contact-grid">
+    <a href="mailto:brigaudmatheo@gmail.com" class="contact-card">
+      <span class="icon">✉️</span>
+      <span class="label">Email</span>
+      <span class="value">brigaudmatheo@gmail.com</span>
+    </a>
+    <a href="https://linkedin.com/in/matheo-brigaud" class="contact-card" target="_blank">
+      <span class="icon">💼</span>
+      <span class="label">LinkedIn</span>
+      <span class="value">Mon profil</span>
+    </a>
+    <a href="https://github.com/matheo-brigaud" class="contact-card" target="_blank">
+      <span class="icon">⬡</span>
+      <span class="label">GitHub</span>
+      <span class="value">Mon code</span>
+    </a>
+    <div class="contact-card">
+      <span class="icon">📍</span>
+      <span class="label">Localisation</span>
+      <span class="value">Niort, France</span>
+    </div>
+  </div>
+</section>
+
+<!-- ======================================================
+     FOOTER
+     ====================================================== -->
+<footer>
+  <p>Fait par Mathéo Brigaud · Étudiant BUT Science des Données</p>
+  <p style="margin-top:0.5rem;font-size:0.75rem;opacity:0.5;">Fait avec Python · HTML · CSS</p>
+</footer>
+
+<script src="scripts/main.js"></script>
+</body>3
+</html>
